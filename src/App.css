@@ -865,3 +865,47 @@ button.Change {
 .Video-Status.Uploaded {
   color: green;
 }
+
+/*========== CLASS ==========*/
+.Class-module {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  height: 80vh;
+  max-width: 137vh;
+  margin-top: 15px;
+  padding-left: 30px;
+}
+.Class-module p {
+  margin-top: 60px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Class-module span {
+  display: block;
+  font-size: 18px;
+}
+.Class-module img {
+  margin-top: 50px;
+  width: 50vh;
+  height: 35vh;
+}
+
+button.Add-class {
+  background-color: #fff;
+  box-shadow: 0px 5px 5px rgba(36, 39, 37, 0.15);
+  border: none;
+  margin-top: 50px;
+  margin-left: 78vh;
+  margin-right: -50px;
+  padding: 0px 25px 0px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
